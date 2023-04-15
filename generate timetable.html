@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <title>generate timetable</title>
+</head>
+<style>
+    a {
+        color: #A5D7E8;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        padding: 10px;
+        margin: 10px;
+        font-size: medium;
+        list-style-type: none;
+    }
+
+    nav {
+        background-color: aliceblue;
+    }
+
+    img {
+        height: 10vw;
+    }
+
+    li>a {
+        color: black;
+        font-size: 30px;
+        text-decoration: none;
+        border: 1px solid navy;
+        padding: 12px;
+        margin: 10px;
+    }
+
+    ul {
+        justify-content: center;
+    }
+
+    ul>div {
+        display: flex;
+    }
+
+    div>li {
+        margin-top: 10vh;
+    }
+
+    input {
+        font-size: 25px;
+    }
+</style>
+
+<body bgcolor="#0B2447">
+    <nav>
+        <ul>
+            <a href="timetable.html"><img src="./KALINGA LOGO.png" alt=""></a>
+            <div>
+                <li><a href="add teacher.html">Add Teacher</a><br></br></li>
+                <li><a href="add course.html">Add Course</a><br></br></li>
+                <li><a href="add subject.html">Add Subject</a><br></br></li>
+                <li><a href="generate timetable.html">Generate Timetable</a></li>
+            </div>
+        </ul>
+    </nav>
+    <CENTER>
+        <form>
+            <input type="text" placeholder="Course Name" name="course's name"><br>
+
+            <input type="text" placeholder="Course Code" name="course's code"><br>
+            <input type="number" placeholder="Semester" name="semester" max="10" min="1" style="width:20.9%;"><br>
+
+
+
+            <input type="text" placeholder="Subject 1" name="subject 1"><br>
+            <input type="text" placeholder="Subject 2" name="subject 2"><br>
+            <input type="text" placeholder="Subject 3" name="subject 3"><br>
+            <input type="text" placeholder="Subject 4" name="subject 4"><br>
+            <input type="submit" name="enter"><br>
+            <a href="Export timetable.html"><span style="font-size: 40px;">Export timetable</span></a>
+    </CENTER>
+    </form>
+    <address>
+        <div style="background-color: aliceblue; display: flex;">
+            <h3 style="padding: 1%;">Project Done By BSC CS 4th Sem Students :</h3>
+            <h3 style="padding: 1%;">Bh Srawani</h3>
+            <h3 style="padding: 1%;">Arpita Maravi</h3>
+            <h3 style="padding: 1%;">Samiksha Shrivastava</h3>
+        </div>
+        <div style="background-color: aliceblue;   padding: 1px; display: flex;">
+            <h3 style="padding: 1%;">Guided By:</h3>
+            <h3 style="padding: 1%;">Mrs. Akanksha Mishra, AP, Kalinga University</h3>
+        </div>
+    </address>
+</body>
+
+</html>
